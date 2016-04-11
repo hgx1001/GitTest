@@ -18,6 +18,7 @@ import com.alibaba.fastjson.JSON;
 
 public class JsonUtil {
 
+	private static String name = "bokeyhuang";
 	private static ObjectMapper om = null;
 
 	static {
