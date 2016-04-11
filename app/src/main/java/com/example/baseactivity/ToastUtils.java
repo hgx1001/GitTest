@@ -13,6 +13,7 @@ import com.example.thirdloginandsharedemo.R;
  * Created by Administrator on 2015/9/26.
  */
 public class ToastUtils {
+
     public static void toast(View layout,String toast, Context context) {
         Snackbar snackbar= Snackbar.make(layout, toast, Snackbar.LENGTH_SHORT);
         setSnackbarMessageTextColor(snackbar, Color.parseColor("#ffffff"));
